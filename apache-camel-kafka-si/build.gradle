@@ -1,0 +1,27 @@
+apply plugin: 'spring-boot'
+
+jar {
+   manifest {
+       attributes 'Implementation-Title': 'Parser Engine Implementation',
+                  'Implementation-Version': version,
+                   'Main-Class': 'org.sample.Application'
+   }
+}
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-web:1.2.7.RELEASE')
+	compile('org.springframework.boot:spring-boot-gradle-plugin:1.3.0.RELEASE')
+	compile project(':apache-camel-kafka-ct')
+}
+
+buildscript {
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.5.RELEASE")
+    }
+}

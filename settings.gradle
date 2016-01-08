@@ -1,0 +1,2 @@
+
+include "apache-camel-kafka-ct", "apache-camel-kafka-si"

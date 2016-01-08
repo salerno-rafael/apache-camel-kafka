@@ -1,0 +1,5 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Fri Jan 08 18:03:56 BRST 2016
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;apache-camel-kafka-ct;apache-camel-kafka-si;
+org.springsource.ide.eclipse.gradle.linkedresources=
+org.springsource.ide.eclipse.gradle.rootprojectloc=
